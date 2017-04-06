@@ -1,0 +1,27 @@
+{
+  "name": "scholaria",
+  "version": "0.0.1",
+  "description": "A Node.js based REST API for a research application",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsega/nodejs-scholaria-api.git"
+  },
+  "keywords": [
+    "research",
+    "nodejs",
+    "rest-api"
+  ],
+  "author": "Tsegaselassie Tadesse <tsegaselassi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsega/nodejs-scholaria-api/issues"
+  },
+  "homepage": "https://github.com/tsega/nodejs-scholaria-api#readme"
+}
