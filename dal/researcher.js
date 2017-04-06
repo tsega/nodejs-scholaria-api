@@ -117,3 +117,25 @@ exports.get = function get(query, cb) {
             cb(null, researcher || {});
         });
 };
+
+/**
+ * search the collection of researchers
+ *
+ * @desc get a collection of researchers from db
+ *
+ * @param {Object} query Query Object
+ * @param {Function} cb Callback for once fetch is complete
+ */
+exports.search = function search(options, cb) {
+    Researcher.find(options.filter, options.fields)
+        .populate(population)
+        .sort(options.sort)
+        .limit(options.limit)
+        .skip(options.limit * (options.page - 1))
+        .exec(function searchResearchers(err, researchers) {
+            if (err) {
+                return cb(err);
+            }
+            return cb(null, researchers);
+        });
+};

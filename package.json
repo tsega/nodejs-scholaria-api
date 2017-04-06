@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "DEBUG=movies* nodemon app.js",
+    "start": "DEBUG=movies* DB_USER='scholaria_usr' DB_PASS='SS_M1sh7i^' nodemon app.js",
     "build-docs": "./node_modules/.bin/apidoc -i ./routes -o ./docs"
   },
   "repository":{

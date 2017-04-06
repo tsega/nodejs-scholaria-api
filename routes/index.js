@@ -7,7 +7,7 @@ var subjectRouter = require('./subject');
 var findingRouter = require('./finding');
 
 // Export Router Initializer
-module.exports = function iniRouter(app) {
+module.exports = function initRouter(app) {
     // Researcher Endpoint
     app.use('/researchers', researcherRouter);
     // Subject Endpoint

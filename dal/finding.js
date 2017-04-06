@@ -117,3 +117,25 @@ exports.get = function get(query, cb) {
             cb(null, finding || {});
         });
 };
+
+/**
+ * search the collection of findings
+ *
+ * @desc get a collection of findings from db
+ *
+ * @param {Object} query Query Object
+ * @param {Function} cb Callback for once fetch is complete
+ */
+exports.search = function search(options, cb) {
+    Finding.find(options.filter, options.fields)
+        .populate(population)
+        .sort(options.sort)
+        .limit(options.limit)
+        .skip(options.limit * (options.page - 1))
+        .exec(function searchFindings(err, findings) {
+            if (err) {
+                return cb(err);
+            }
+            return cb(null, findings);
+        });
+};

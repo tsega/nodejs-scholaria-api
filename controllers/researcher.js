@@ -6,7 +6,7 @@ var searchOptions = require('../lib/search_options');
 
 var moment = require('moment');
 
-var ResearcherDal = require('../dal/Researcher');
+var ResearcherDal = require('../dal/researcher');
 
 // Default fields to return on search if not provided
 var defaultFields = ['name', 'fieldOfStudy', 'created_date', 'updated_date'];

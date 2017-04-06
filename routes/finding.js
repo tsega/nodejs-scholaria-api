@@ -1,7 +1,7 @@
 // Load Module Dependencies
 var express = require('express');
 
-var Finding = require('../controllers/subject');
+var Finding = require('../controllers/finding');
 
 // Create a router
 var router = express.Router();
