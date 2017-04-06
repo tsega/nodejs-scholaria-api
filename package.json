@@ -1,6 +1,6 @@
 {
   "name": "scholaria",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Node.js based REST API for a research application",
   "main": "app.js",
   "directories": {
