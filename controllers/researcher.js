@@ -9,7 +9,7 @@ var moment = require('moment');
 var ResearcherDal = require('../dal/researcher');
 
 // Default fields to return on search if not provided
-var defaultFields = ['name', 'fieldOfStudy', 'created_date', 'updated_date'];
+var defaultFields = ['first_name', 'last_name', 'title', 'institution', 'orchid_ID','created_date', 'updated_date'];
 
 /*
  * Create Researcher

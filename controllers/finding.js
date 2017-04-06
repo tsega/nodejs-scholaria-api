@@ -9,7 +9,7 @@ var moment = require('moment');
 var FindingDal = require('../dal/Finding');
 
 // Default fields to return on search if not provided
-var defaultFields = ['name', 'fieldOfStudy', 'created_date', 'updated_date'];
+var defaultFields = ['title', 'abstract', 'created_date', 'updated_date'];
 
 /*
  * Create Finding

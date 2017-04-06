@@ -9,7 +9,7 @@ var moment = require('moment');
 var SubjectDal = require('../dal/Subject');
 
 // Default fields to return on search if not provided
-var defaultFields = ['name', 'fieldOfStudy', 'created_date', 'updated_date'];
+var defaultFields = ['name', 'field_of_study', 'created_date', 'updated_date'];
 
 /*
  * Create Subject
