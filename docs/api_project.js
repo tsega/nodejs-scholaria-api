@@ -1,0 +1,1 @@
+define({  "name": "scholaria",  "version": "0.0.6",  "description": "A Node.js based REST API for a research application",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-04-06T16:10:32.636Z",    "url": "http://apidocjs.com",    "version": "0.17.5"  }});
