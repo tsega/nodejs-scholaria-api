@@ -25,6 +25,11 @@
   },
   "homepage": "https://github.com/tsega/nodejs-scholaria-api#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "mongoose": "^4.9.3"
   }
 }
