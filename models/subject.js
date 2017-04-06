@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 
 // Define Subject schema
-var SubjectSchema = mongoose.schema({
+var SubjectSchema = mongoose.Schema({
     name: {type: String},
     field_of_study: {type: String},
     created_date: {type: Date},

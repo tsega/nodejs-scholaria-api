@@ -6,7 +6,7 @@ var Researcher = require('./researcher');
 var Subject = require('./subject');
 
 // Define Finding schema
-var FindingSchema = mongoose.schema({
+var FindingSchema = mongoose.Schema({
     researchers: [{type: mongoose.Schema.ObjectId, ref: 'Researcher'}],
     subjects: [{type: mongoose.Schema.ObjectId, ref: 'Subject'}],
     title: {type: String},
