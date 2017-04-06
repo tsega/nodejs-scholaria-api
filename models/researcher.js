@@ -12,7 +12,7 @@ var ResearcherSchema = mongoose.schema({
     first_name: {type: String},
     last_name: {type: String},
     institution: {type: String},
-    orchidID: {type: String},
+    orchid_ID: {type: String},
     created_date: {type: Date},
     updated_date: {type: Date}
 });
