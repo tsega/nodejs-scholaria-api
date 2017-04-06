@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/tsega/nodejs-scholaria-api/issues"
   },
-  "homepage": "https://github.com/tsega/nodejs-scholaria-api#readme"
+  "homepage": "https://github.com/tsega/nodejs-scholaria-api#readme",
+  "dependencies": {
+    "mongoose": "^4.9.3"
+  }
 }
