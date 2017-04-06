@@ -108,7 +108,7 @@ router.get('/search', Finding.searchFindings);
  * 	 }
  *
  */
-router.get('/:subjectId', Finding.getFinding);
+router.get('/:findingId', Finding.getFinding);
 
 /**
  * @api {put} /subjects/:subjectId Update subject
@@ -147,7 +147,7 @@ router.get('/:subjectId', Finding.getFinding);
  * 	 }
  *
  */
-router.put('/:subjectId', Finding.updateFinding);
+router.put('/:findingId', Finding.updateFinding);
 
 /**
  * @api {delete} /subjects/:subjectId Delete subject
@@ -173,7 +173,7 @@ router.put('/:subjectId', Finding.updateFinding);
  * 		last_modified: 2017-02-13T17:19:08.404Z,
  * 	 }
  */
-router.delete('/:subjectId', Finding.removeFinding);
+router.delete('/:findingId', Finding.removeFinding);
 
 // Export the router
 module.exports = router;
